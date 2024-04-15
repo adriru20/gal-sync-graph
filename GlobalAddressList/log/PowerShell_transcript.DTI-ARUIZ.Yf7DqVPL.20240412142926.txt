@@ -1,0 +1,34 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20240412142926
+Nombre de usuario: CEIS_ES\aruiz
+Usuario RunAs: CEIS_ES\aruiz
+Nombre de la configuración: 
+Máquina: DTI-ARUIZ (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: PowerShell.exe -ExecutionPolicy Bypass -File C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\Sync-Contacts.ps1 -CredentialPath C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\Credentials\credential.cred -Tenant 4e5d6375-3b91-4537-af13-53b7c61de53e -ContactFolderName TESTING -LogPath C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\log -AzureADGroup GAL_Testing
+Id. de proceso: 21012
+PSVersion: 5.1.19041.4291
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.4291
+BuildVersion: 10.0.19041.4291
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\log\PowerShell_transcript.DTI-ARUIZ.Yf7DqVPL.20240412142926.txt
+ADVERTENCIA: Algunos nombres de comando importados del módulo 'GAL-Sync' incluyen verbos no aprobados que podrían dificultar su reconocimiento. Para encontrar los comandos con verbos no aprobados, vuelva a ejecutar el comando Import-Module con el parámetro Verbose. Para obtener una lista de verbos aprobados, escriba Get-Verb.
+True
+
+Usuario aruiz@ceis.es
+12/04/2024 14:29:30 | Info | Iniciando sincronizacion para aruiz@ceis.es
+12/04/2024 14:29:30 | Info | Carpeta encontrada TESTING para aruiz@ceis.es
+12/04/2024 14:29:30 | Info | Obteniendo contactos en la carpeta
+12/04/2024 14:29:30 | Info | Eliminando contactos que ya no existen de la carpeta
+12/04/2024 14:29:30 | Info | Contactos eliminados
+12/04/2024 14:29:31 | Info | Comparando la lista de contactos
+12/04/2024 14:29:31 | Info | No hay contactos disponibles para sincronizar
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20240412142931
+**********************
