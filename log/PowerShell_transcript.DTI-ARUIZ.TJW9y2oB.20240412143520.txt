@@ -1,0 +1,137 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20240412143520
+Nombre de usuario: CEIS_ES\aruiz
+Usuario RunAs: CEIS_ES\aruiz
+Nombre de la configuración: 
+Máquina: DTI-ARUIZ (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: PowerShell.exe -ExecutionPolicy Bypass -File C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\Sync-Contacts.ps1 -CredentialPath C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\Credentials\credential.cred -Tenant 4e5d6375-3b91-4537-af13-53b7c61de53e -ContactFolderName TESTING -LogPath C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\log -AzureADGroup GAL_Testing
+Id. de proceso: 19724
+PSVersion: 5.1.19041.4291
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.4291
+BuildVersion: 10.0.19041.4291
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\aruiz\OneDrive - CEIS\Documentos\Scripts\GlobalAddressList\log\PowerShell_transcript.DTI-ARUIZ.TJW9y2oB.20240412143520.txt
+ADVERTENCIA: Algunos nombres de comando importados del módulo 'GAL-Sync' incluyen verbos no aprobados que podrían dificultar su reconocimiento. Para encontrar los comandos con verbos no aprobados, vuelva a ejecutar el comando Import-Module con el parámetro Verbose. Para obtener una lista de verbos aprobados, escriba Get-Verb.
+True
+
+Usuario aruiz@ceis.es
+12/04/2024 14:35:24 | Info | Iniciando sincronizacion para aruiz@ceis.es
+12/04/2024 14:35:24 | Info | Carpeta encontrada TESTING para aruiz@ceis.es
+12/04/2024 14:35:24 | Info | Obteniendo contactos en la carpeta
+12/04/2024 14:35:24 | Info | Eliminando contactos que ya no existen de la carpeta
+12/04/2024 14:35:24 | Info | Comparando la lista de contactos
+12/04/2024 14:35:24 | Info | Contacto creado Ángel Adán de la Hoz
+12/04/2024 14:35:24 | Info | Contacto creado Ángel Caja Jaime
+12/04/2024 14:35:25 | Info | Contacto creado Alessandro Femiano Durán
+12/04/2024 14:35:25 | Info | Contacto creado Ángel Gil Ayuso
+12/04/2024 14:35:25 | Info | Contacto creado Ana Molina Hernández
+12/04/2024 14:35:26 | Info | Contacto creado Antonio Quintero Gotor
+12/04/2024 14:35:26 | Info | Contacto creado Angel Rodriguez Ruano
+12/04/2024 14:35:26 | Info | Contacto creado Alberto Rosado Vallejo
+12/04/2024 14:35:26 | Info | Contacto creado Adrián Ruiz González
+12/04/2024 14:35:26 | Info | Contacto creado Alejandro Sánchez García
+12/04/2024 14:35:27 | Info | Contacto creado Alejandro Serrano Valladares
+12/04/2024 14:35:27 | Info | Contacto creado Adrián Yuste González
+12/04/2024 14:35:27 | Info | Contacto creado Blanca De Antonio Cajal
+12/04/2024 14:35:27 | Info | Contacto creado Borja Ribera García-Rubio
+12/04/2024 14:35:28 | Info | Contacto creado Carolina Bartolomé Márquez
+12/04/2024 14:35:28 | Info | Contacto creado Carlos Delgado Luengo
+12/04/2024 14:35:28 | Info | Contacto creado Carlos Muñoz Sánchez
+12/04/2024 14:35:28 | Info | Contacto creado Daniel Fernández Calvo
+12/04/2024 14:35:29 | Info | Contacto creado Diego Bayón García
+12/04/2024 14:35:29 | Info | Contacto creado Daniel del Casar Ruiz
+12/04/2024 14:35:29 | Info | Contacto creado Dame Faye
+12/04/2024 14:35:29 | Info | Contacto creado Diana Fernández Paredes
+12/04/2024 14:35:29 | Info | Contacto creado David López Martínez
+12/04/2024 14:35:30 | Info | Contacto creado Daniel Sampietro Serrano
+12/04/2024 14:35:30 | Info | Contacto creado Domingo Urquiza Cuadros
+12/04/2024 14:35:30 | Info | Contacto creado Esther Feito García
+12/04/2024 14:35:30 | Info | Contacto creado Esther García Collado
+12/04/2024 14:35:31 | Info | Contacto creado Francisco Javier Guillén Maturana
+12/04/2024 14:35:31 | Info | Contacto creado Federico Muñoz Sánchez
+12/04/2024 14:35:31 | Info | Contacto creado Francesco Nanini
+12/04/2024 14:35:31 | Info | Contacto creado Gabriel Carazo Linares
+12/04/2024 14:35:32 | Info | Contacto creado Gonzalo José Reyes López
+12/04/2024 14:35:32 | Info | Contacto creado Georgiana María Tivlica
+12/04/2024 14:35:32 | Info | Contacto creado Iván Cano Redondo
+12/04/2024 14:35:33 | Info | Contacto creado Ignacio Duy Ha Tonthat
+12/04/2024 14:35:33 | Info | Contacto creado Ignacio García Antolín
+12/04/2024 14:35:33 | Info | Contacto creado Irene García Reigosa
+12/04/2024 14:35:33 | Info | Contacto creado Juan Ángel Gutiérrez Romero
+12/04/2024 14:35:34 | Info | Contacto creado Javier Alvariño Trujillo
+12/04/2024 14:35:34 | Info | Contacto creado Julián Amores Fernández-Caballero
+12/04/2024 14:35:34 | Info | Contacto creado Julio Conde Blanco
+12/04/2024 14:35:34 | Info | Contacto creado Juan Alfonso Díaz Veiga
+12/04/2024 14:35:34 | Info | Contacto creado José Domingo Ruiz Troya
+12/04/2024 14:35:35 | Info | Contacto creado José Fernando García Jiménez
+12/04/2024 14:35:35 | Info | Contacto creado Javier García González
+12/04/2024 14:35:35 | Info | Contacto creado Javier González García
+12/04/2024 14:35:35 | Info | Contacto creado Joaquín Lahoz Castillo
+12/04/2024 14:35:36 | Info | Contacto creado José Luís Breñosa de Mier
+12/04/2024 14:35:36 | Info | Contacto creado Juan Manuel Iglesias Vallejo
+12/04/2024 14:35:36 | Info | Contacto creado José Miguel Mosquera Sanjurjo
+12/04/2024 14:35:36 | Info | Contacto creado Juan Morena Anguita
+12/04/2024 14:35:36 | Info | Contacto creado Juan Manuel Serra
+12/04/2024 14:35:37 | Info | Contacto creado Jimena Notivol Lázaro
+12/04/2024 14:35:37 | Info | Contacto creado Jorge Ocaña Pérez
+12/04/2024 14:35:37 | Info | Contacto creado José Francisco Ortega Moreno-Tomé
+12/04/2024 14:35:37 | Info | Contacto creado Jesús Otero Jara
+12/04/2024 14:35:38 | Info | Contacto creado Jesús Puerto Duque
+12/04/2024 14:35:38 | Info | Contacto creado José Luis Ramírez
+12/04/2024 14:35:38 | Info | Contacto creado Javier Rupérez
+12/04/2024 14:35:38 | Info | Contacto creado José Sánchez Martín
+12/04/2024 14:35:38 | Info | Contacto creado Jesús Segura Blázquez
+12/04/2024 14:35:39 | Info | Contacto creado Julio Viñas Setién
+12/04/2024 14:35:39 | Info | Contacto creado Luis David López-Roberts Luzón
+12/04/2024 14:35:39 | Info | Contacto creado Luisa Feijoo Álvarez
+12/04/2024 14:35:39 | Info | Contacto creado Lorena González Barrero
+12/04/2024 14:35:39 | Info | Contacto creado Luís Miguel Martín Álvarez
+12/04/2024 14:35:40 | Info | Contacto creado Laura Sofía Martín Delgado
+12/04/2024 14:35:40 | Info | Contacto creado Luis Sosa Rincón
+12/04/2024 14:35:40 | Info | Contacto creado man03
+12/04/2024 14:35:40 | Info | Contacto creado Mª Cruz Robledo Roda
+12/04/2024 14:35:41 | Info | Contacto creado Mª Elena Bernal López
+12/04/2024 14:35:41 | Info | Contacto creado Marta Fernández Maní
+12/04/2024 14:35:41 | Info | Contacto creado Mª del Mar García Moreno
+12/04/2024 14:35:41 | Info | Contacto creado Mª José García
+12/04/2024 14:35:41 | Info | Contacto creado Manuel Jiménez Cobos
+12/04/2024 14:35:42 | Info | Contacto creado Manuel Lomba Fluxá
+12/04/2024 14:35:42 | Info | Contacto creado Mario Matos García
+12/04/2024 14:35:42 | Info | Contacto creado Matthieu Mazars
+12/04/2024 14:35:42 | Info | Contacto creado Miguel Mesa Gutiérrez
+12/04/2024 14:35:43 | Info | Contacto creado Manuel Moreno López
+12/04/2024 14:35:43 | Info | Contacto creado Manuel Muñoz Sereno
+12/04/2024 14:35:43 | Info | Contacto creado Martina Romero Fernández
+12/04/2024 14:35:43 | Info | Contacto creado Marta Ruiz de Lara
+12/04/2024 14:35:43 | Info | Contacto creado María Zabalegui Villaverde
+12/04/2024 14:35:44 | Info | Contacto creado Nerea Fernández Macías
+12/04/2024 14:35:44 | Info | Contacto creado Pedro Castañeda López
+12/04/2024 14:35:44 | Info | Contacto creado Pilar García Casado
+12/04/2024 14:35:44 | Info | Contacto creado Pedro González Barragán
+12/04/2024 14:35:45 | Info | Contacto creado Pedro Laosa Zafra
+12/04/2024 14:35:45 | Info | Contacto creado Rubén Amor Utrilla
+12/04/2024 14:35:45 | Info | Contacto creado Rafael Caffarena Gortazar
+12/04/2024 14:35:45 | Info | Contacto creado Rubén Gómez Soto
+12/04/2024 14:35:46 | Info | Contacto creado Rosa Marín Alcazar
+12/04/2024 14:35:46 | Info | Contacto creado Rafael Martínez Gallego
+12/04/2024 14:35:46 | Info | Contacto creado Raquel Naz Saco
+12/04/2024 14:35:46 | Info | Contacto creado Santiago Ferrero Vidales
+12/04/2024 14:35:47 | Info | Contacto creado Stan Ivan
+12/04/2024 14:35:47 | Info | Contacto creado Saray Marti Canet
+12/04/2024 14:35:47 | Info | Contacto creado Sara María Martinez Arribas
+12/04/2024 14:35:47 | Info | Contacto creado Sonia Rodríguez Orozco
+12/04/2024 14:35:48 | Info | Contacto creado Santiago Ruiz Gómez
+12/04/2024 14:35:48 | Info | Contacto creado Santiago Sanfrutos
+12/04/2024 14:35:48 | Info | Contacto creado Silvia Serrano Egeda
+12/04/2024 14:35:48 | Info | Contacto creado Teresa Alfageme Prieto
+12/04/2024 14:35:48 | Info | Contacto creado Tamara García Ordoñez
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20240412143548
+**********************
